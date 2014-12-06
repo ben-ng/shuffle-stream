@@ -78,7 +78,7 @@ test('shuffle entire input', function (t) {
 })
 
 test('shuffle in batches', function (t) {
-  t.plan(2)
+  t.plan(4)
 
   var input = new Readable
     , shouldBeSilent = true
@@ -95,6 +95,12 @@ test('shuffle in batches', function (t) {
     if(output.length == 6) {
       assertShuffled(t, ['0', '1', '2', '3', '4', '5'], output)
       shouldBeSilent = true
+      input.push('6')
+      input.push('7')
+      input.push('8')
+      input.push('9')
+      shouldBeSilent = false
+      input.push(null)
     }
 
     cb()
