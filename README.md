@@ -1,6 +1,8 @@
 shuffle-stream
 ==============
 
+[![Build Status](https://travis-ci.org/ben-ng/shuffle-stream.svg?branch=master)](https://travis-ci.org/ben-ng/shuffle-stream)
+
 Shuffles a stream. Can shuffle in batches to reduce memory requirements. Uses the in-place Fisher-Yates algorithm for speed.
 
 ## Usage
