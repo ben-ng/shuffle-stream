@@ -1,0 +1,27 @@
+{
+  "name": "shuffle-stream",
+  "version": "1.0.0",
+  "description": "Shuffle a stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ben-ng/shuffle-stream.git"
+  },
+  "keywords": [
+    "shuffle",
+    "stream"
+  ],
+  "author": "Ben Ng <me@benng.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ben-ng/shuffle-stream/issues"
+  },
+  "homepage": "https://github.com/ben-ng/shuffle-stream",
+  "dependencies": {
+    "tape": "^3.0.3",
+    "through2": "^0.6.3"
+  }
+}
